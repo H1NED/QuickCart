@@ -1,0 +1,144 @@
+.contacts {
+    margin-top: 70px;
+    margin-bottom: 90px;
+}
+
+.contacts-top {
+    text-align: center;
+    padding: 80px 0;
+    margin-bottom: 63px;
+}
+
+.contacts-top__title {
+    margin-bottom: 20px;
+}
+
+.contacts-bottom {
+    color: #fff;
+    display: flex;
+    align-items: stretch;
+    gap: 30px;
+}
+
+.contacts-item {
+    background: #3AB795;
+    padding: 49px 50px;
+    border-radius: 4px;
+}
+
+.contacts-item--left__inf > a, p {
+    font-size: 0.875rem;
+}
+
+.contacts-item--left__top {
+    padding-bottom: 32px;
+    border-bottom: 1px solid #F4F4F4;
+}
+
+.contacts-item--left__bottom {
+    padding-top: 32px;
+}
+
+.contacts-item--left__title {
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+    margin-bottom: 24px;
+}
+
+.contacts-item--left__title > span {
+    font-weight: 600;
+}
+
+.contacts-item--left__text {
+    margin-bottom: 16px;
+}
+
+.contacts-item--left__link:hover > span {
+    border-bottom: 1px solid #fff;
+}
+
+.contacts-item--left__form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    row-gap: 32px;
+}
+
+.contacts__form-line {
+    display: flex;
+    column-gap: 16px;
+    justify-content: space-between;
+    row-gap: 32px;
+    width: 100%;
+}
+
+.contacts__form-line > input {
+    flex: 1;
+}
+
+.contacts__form-line > input[required]::after {
+    content: ' *';
+    color: red;
+    font-size: 16px;
+}
+
+.contacts-item--left__form input, textarea {
+    background: #fff;
+    padding: 13px 16px;
+    border-radius: 4px;
+    color: #000;
+}
+
+.contacts__form--text {
+    width: 100%;
+    resize: none;
+}
+
+.contacts__form--text:focus {
+    outline: none;
+}
+
+.contacts__form--btn {
+    font-weight: 500;
+    padding: 16px 48px;
+    color: #fff !important;
+    background-color: #A0E8AF !important;
+}
+
+.contacts__form--btn:hover {
+    background-color: #8ed39d !important;
+}
+
+.map {
+    margin-bottom: -10px;
+}
+
+
+
+
+
+@media screen and (max-width: 1300px) { 
+    .contacts-bottom {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width: 950px) { 
+    .contacts__form-line {
+        flex-direction: column;
+    }
+    .contacts__form-line > input {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) { 
+    .contacts-item {
+        padding: 24px 25px;
+    }  
+    .contacts__form--btn {
+        width: 100%;
+    }
+}

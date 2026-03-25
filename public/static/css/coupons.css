@@ -1,0 +1,274 @@
+.main {
+    margin-top: 70px;
+}
+
+.main-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    column-gap: 40px;
+    row-gap: 72px;
+}
+
+.main-left {
+    width: 14.563rem;
+    min-width: 9.875rem;
+    padding-top: 40px;
+    padding-right: 16px;
+    border-right: 0.5px solid #A6A492;
+}
+
+.main-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.main-list__item a {
+    color: #000;
+    line-height: 150%;
+}
+
+.main-right {
+    max-width: 892px;    
+}
+
+.main-slider {
+    position: relative;
+    border-radius: 12px;
+}
+
+.main-slider--wrapper {
+    align-items: stretch;
+}
+
+.main-slide {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 54px;
+    row-gap: 34px;
+    color: #fff;
+    background: #000;
+    padding: 31px 90px 43px 64px;
+    border-radius: 12px;
+}
+
+.main-slide__left {
+    max-width: 21.5rem;
+}
+
+.main-slide__desc {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 12px;
+    margin-bottom: 20px;
+    min-height: 50px;
+}
+
+.main-slide__desc svg {
+    height: 48px;
+}
+
+.main-slide__title {
+    font-size: 3rem;
+}
+
+.main-slider__pagination {
+    bottom: 11px !important;
+}
+
+.main-slider__pagination .swiper-pagination-bullet {
+    width: 14px;
+    height: 14px;
+    background: #7F7F7F;
+}
+
+.main-slider__pagination .swiper-pagination-bullet-active {
+    background: #3AB795;
+    border: 2px solid #fff;
+}
+
+.coupons {
+
+}
+
+.coupons-cont {
+
+}
+
+.coupons-line:not(:last-child) {
+    margin-bottom: 60px;
+}
+
+.coupons-line--top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.coupons-line__title {
+    margin-bottom: 31px;
+}
+
+.coupons-slider--control {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.coupons-slider--arrow {
+    position: static;
+    width: 46px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 11px;
+    background: #F5F5F5;
+    border-radius: 50%;
+}
+
+.coupons-slider--arrow::after {
+    content: none;
+}
+
+.coupons-slider--arrow:hover {
+    background: #ebebeb;
+}
+
+.coupons-slider--arrow:active {
+    transform: scale(0.9);
+}
+
+.coupons-wrapper {
+    
+}
+
+.coupon {
+    display: flex;
+    flex-direction: column;
+    row-gap: 7px;
+}
+
+.coupon__img {
+    position: relative;
+}
+
+.coupon__img img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.coupon__img span {
+    position: absolute;
+    font-size: 14px;
+    bottom: 14px;
+    right: 18px;
+    padding: 4px 8px;
+    background: #FFCF56;
+    border-radius: 4px;
+}
+
+.coupon__desc {
+    font-weight: 500;
+}
+
+.coupon-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.coupon-bootom--left {
+    display: flex;
+    flex-direction: column;
+}
+
+.coupon__price--crossed {
+    text-decoration: line-through;
+    color: #979797;
+}
+
+.coupon__price {
+    color: #3AB795;
+}
+
+.coupon__addCart {
+    background: #3AB795;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.coupon__addCart:hover {
+    background: #2F997C;
+}
+
+
+@media screen and (max-width: 1150px) {
+    .main-right {
+        width: 77.5%;
+    }
+    .main-cont {
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .main-cont {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .main-right {
+        width: 100%;
+    }
+    .main-left {
+        border-right: 0px;
+        padding: 20px 0;
+        width: 100%;
+    }
+    .main-list {
+        flex-direction: row;
+        column-gap: 24px;
+        justify-content: center;
+        flex-wrap: wrap;
+        row-gap: 32px;
+    }
+    .main-list__item {
+        border-bottom: 1px solid #000;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .main-slide {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        padding: 31px 87px 62px;
+    }
+    .main-slide__desc {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .main-slide__desc {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .main-slide {
+        padding: 31px 31px 62px;
+    }
+    .main-slide__title {
+        font-size: 2.25rem;
+    }
+    .main-slide__right {
+        display: none;
+    }
+}

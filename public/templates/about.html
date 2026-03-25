@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О нас</title>
+    <link rel="shortcut icon" href="../static/img/vector/logoHeader.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/reset.css">
+    <link rel="stylesheet" href="../static/libs/swiper-bundle.min.css">
+    <link rel="stylesheet" href="../static/libs/video-js.css">
+    <link rel="stylesheet" href="../static/css/common.css">
+    <link rel="stylesheet" href="../static/css/about.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header-cont">
+                    <a class="header__logo logo" href="landing.html">
+                        <img src="../static/img/vector/logoHeader.svg" alt="Logo">
+                        <span>QuickCart</span>
+                    </a>
+                    <nav class="header__nav">
+                        <button class="header__nav-close">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M13 13L8 8M8 8L3 3M8 8L3 13M8 8L13 3" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                        <ul class="nav-list">
+                            <li class="after-login">
+
+                            </li>
+                            <li class="nav-list__item">
+                                <a href="landing.html">
+                                    Главная
+                                </a>
+                            </li>
+                            <li class="nav-list__item nav-list__item-active">
+                                <a href="about.html">
+                                    О нас
+                                </a>
+                            </li>
+                            <li class="nav-list__item">
+                                <a href="coupons.html">
+                                    Купоны
+                                </a>
+                            </li>
+                            <li class="nav-list__item">
+                                <a href="contacts.html">
+                                    Контакты
+                                </a>
+                            </li>
+                            <li class="nav-list__item nav-list__login">
+                                <a class="logIn" href="login.html">
+                                    Войти
+                                </a>
+                            </li>
+                            <li class="nav-list__item nav-list__profile">
+                                <button class="profile__btn">  
+                                    <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.1396 14.91C14.0579 14.8983 13.9529 14.8983 13.8596 14.91C11.8062 14.84 10.1729 13.16 10.1729 11.095C10.1729 8.98331 11.8762 7.26831 13.9996 7.26831C16.1112 7.26831 17.8262 8.98331 17.8262 11.095C17.8146 13.16 16.1929 14.84 14.1396 14.91Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M21.8634 22.6101C19.7867 24.5118 17.0334 25.6668 14 25.6668C10.9667 25.6668 8.21339 24.5118 6.13672 22.6101C6.25339 21.5135 6.95339 20.4401 8.20172 19.6001C11.3984 17.4768 16.625 17.4768 19.7984 19.6001C21.0467 20.4401 21.7467 21.5135 21.8634 22.6101Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M13.9997 25.6666C20.4429 25.6666 25.6663 20.4432 25.6663 14C25.6663 7.55665 20.4429 2.33331 13.9997 2.33331C7.55635 2.33331 2.33301 7.55665 2.33301 14C2.33301 20.4432 7.55635 25.6666 13.9997 25.6666Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>                                     
+                                    <span class="profile-name">
+                                        Профиль
+                                    </span> 
+                                </button>
+                                <ul class="hidden profile-list">
+                                    <li class="profile-list__item">
+                                        <button class="profile-logout">
+                                            Выйти
+                                        </button>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                    <button class="header__burger-menu">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7 16H25" stroke="black" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M7 24H25" stroke="black" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M7 8H25" stroke="black" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="container">
+                <div class="main-cont">
+                    <div class="main-info">
+                        <h1 class="main-info__title">
+                            Наша история
+                        </h1>
+                        <p class="main-info__text">
+                            Launced in 2015, Exclusive is South Asia’s premier online shopping makterplace with an active presense in Bangladesh. Supported by wide range of tailored marketing, data and service solutions, Exclusive has 10,500 sallers and 300 brands and serves 3 millioons customers across the region. 
+                        </p>
+                        <p class="main-info__text">
+                            Exclusive has more than 1 Million products to offer, growing at a very fast. Exclusive offers a diverse assotment in categories ranging  from consumer.
+                        </p>
+                    </div>
+                    <img class="main__img" src="../static/img/about/main.jpg" alt="main">
+                </div>
+            </div>
+        </main>
+        <section class="parameter">
+            <div class="container">
+                <div class="parameter-cont">
+                    <div class="parameter-box">
+                        <figure class="paremeter-box__img">
+                            <svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M34.6416 5H27.9883L28.8216 13.3333C28.8216 13.3333 30.4883 15 32.9883 15C34.3006 15.0017 35.5684 14.524 36.5533 13.6567C36.6574 13.5594 36.735 13.4372 36.7787 13.3016C36.8224 13.166 36.8309 13.0214 36.8033 12.8817L35.6266 5.83333C35.5873 5.60049 35.4668 5.38909 35.2865 5.23656C35.1062 5.08404 34.8778 5.00024 34.6416 5V5Z" stroke="#3AB795" stroke-width="2"/>
+                                <path d="M27.9883 5L28.8216 13.3333C28.8216 13.3333 27.1549 15 24.6549 15C22.1549 15 20.4883 13.3333 20.4883 13.3333V5H27.9883Z" stroke="#3AB795" stroke-width="2"/>
+                                <path d="M20.4886 5V13.3333C20.4886 13.3333 18.8219 15 16.3219 15C13.8219 15 12.1553 13.3333 12.1553 13.3333L12.9886 5H20.4886Z" stroke="#3AB795" stroke-width="2"/>
+                                <path d="M12.9883 5H6.3366C6.09993 4.99991 5.87089 5.08377 5.69023 5.23666C5.50957 5.38955 5.38899 5.60157 5.34994 5.835L4.17494 12.8833C4.14747 13.0231 4.15601 13.1676 4.19974 13.3032C4.24348 13.4387 4.32097 13.5609 4.42494 13.6583C4.9716 14.1417 6.19327 15.0017 7.98827 15.0017C10.4883 15.0017 12.1549 13.335 12.1549 13.335L12.9883 5.00167V5Z" stroke="#3AB795" stroke-width="2"/>
+                                <path d="M5.5 15V31.6667C5.5 32.5507 5.85119 33.3986 6.47631 34.0237C7.10143 34.6488 7.94928 35 8.83333 35H32.1667C33.0507 35 33.8986 34.6488 34.5237 34.0237C35.1488 33.3986 35.5 32.5507 35.5 31.6667V15" stroke="#3AB795" stroke-width="2"/>
+                                <path d="M25.2217 35V25C25.2217 24.1159 24.8705 23.2681 24.2454 22.643C23.6202 22.0179 22.7724 21.6667 21.8883 21.6667H18.555C17.671 21.6667 16.8231 22.0179 16.198 22.643C15.5729 23.2681 15.2217 24.1159 15.2217 25V35" stroke="#3AB795" stroke-width="2" stroke-miterlimit="16"/>
+                            </svg>
+                        </figure>
+                        <h4 class="parameter-box__title">
+                            10.5k 
+                        </h4>
+                        <span class="parameter-box__text">
+                            Активных продавцов на нашем сайте
+                        </span>
+                    </div>
+                    <div class="parameter-box">
+                        <figure class="paremeter-box__img">
+                            <svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20.5003 37.2727C30.0397 37.2727 37.773 29.5395 37.773 20C37.773 10.4605 30.0397 2.72727 20.5003 2.72727C10.9608 2.72727 3.22754 10.4605 3.22754 20C3.22754 29.5395 10.9608 37.2727 20.5003 37.2727Z" stroke="#3AB795" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M25.5914 14.547C25.262 13.9758 24.7834 13.5049 24.207 13.1848C23.6305 12.8646 22.9777 12.7071 22.3186 12.7293H18.6823C17.7178 12.7293 16.7929 13.1123 16.111 13.7941C15.429 14.4759 15.0459 15.4005 15.0459 16.3647C15.0459 17.3288 15.429 18.2535 16.111 18.9352C16.7929 19.617 17.7178 20 18.6823 20H22.3186C23.283 20 24.208 20.383 24.8899 21.0648C25.5719 21.7465 25.955 22.6712 25.955 23.6353C25.955 24.5995 25.5719 25.5241 24.8899 26.2059C24.208 26.8877 23.283 27.2707 22.3186 27.2707H18.6823C18.0232 27.2929 17.3704 27.1354 16.7939 26.8152C16.2174 26.4951 15.7389 26.0242 15.4095 25.453" stroke="#3AB795" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M20.5 8.18182V12.1212M20.5 27.8788V31.8182" stroke="#3AB795" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>                                
+                        </figure>
+                        <h4 class="parameter-box__title">
+                            33k
+                        </h4>
+                        <span class="parameter-box__text">
+                            Ежемесячная распродажа купонов
+                        </span>
+                    </div>
+                    <div class="parameter-box">
+                        <figure class="paremeter-box__img">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11.667 11.6667V8.33333C11.667 7.36813 11.9464 6.42357 12.4714 5.61365C12.9965 4.80374 13.7447 4.1631 14.6258 3.76907C15.5069 3.37504 16.4832 3.24445 17.4369 3.39308C18.3906 3.54171 19.2809 3.9632 20.0003 4.60667C20.7197 3.9632 21.61 3.54171 22.5637 3.39308C23.5174 3.24445 24.4937 3.37504 25.3749 3.76907C26.256 4.1631 27.0042 4.80374 27.5292 5.61365C28.0543 6.42357 28.3336 7.36813 28.3337 8.33333V11.6667H30.8337C31.4967 11.6667 32.1326 11.9301 32.6014 12.3989C33.0703 12.8677 33.3337 13.5036 33.3337 14.1667V30.8417C33.3337 32.3866 32.72 33.8682 31.6276 34.9606C30.5352 36.053 29.0535 36.6667 27.5087 36.6667H13.3337C11.5655 36.6667 9.86986 35.9643 8.61961 34.714C7.36937 33.4638 6.66699 31.7681 6.66699 30V14.1667C6.66699 13.5036 6.93038 12.8677 7.39922 12.3989C7.86807 11.9301 8.50395 11.6667 9.16699 11.6667H11.667ZM22.7253 34.1667C22.0454 33.1913 21.6818 32.0306 21.6837 30.8417V14.1667H9.16699V30C9.16699 30.5472 9.27477 31.089 9.48416 31.5945C9.69356 32.1 10.0005 32.5594 10.3874 32.9463C10.7743 33.3332 11.2336 33.6401 11.7391 33.8495C12.2447 34.0589 12.7865 34.1667 13.3337 34.1667H22.7253ZM19.167 11.6667V8.33333C19.167 7.67029 18.9036 7.03441 18.4348 6.56557C17.9659 6.09673 17.33 5.83333 16.667 5.83333C16.004 5.83333 15.3681 6.09673 14.8992 6.56557C14.4304 7.03441 14.167 7.67029 14.167 8.33333V11.6667H19.167ZM21.667 11.6667H25.8337V8.33333C25.8337 7.81872 25.6749 7.31664 25.379 6.89561C25.0832 6.47458 24.6645 6.15512 24.1803 5.98083C23.6961 5.80655 23.1699 5.78594 22.6736 5.92181C22.1773 6.05768 21.7349 6.34341 21.407 6.74C21.5753 7.24 21.667 7.77667 21.667 8.33333V11.6667ZM24.1837 30.8417C24.1837 31.7235 24.534 32.5692 25.1575 33.1928C25.7811 33.8164 26.6268 34.1667 27.5087 34.1667C28.3905 34.1667 29.2362 33.8164 29.8598 33.1928C30.4833 32.5692 30.8337 31.7235 30.8337 30.8417V14.1667H24.1837V30.8417Z" fill="#3AB795"/>
+                            </svg>
+                        </figure>
+                        <h4 class="parameter-box__title">
+                            45.5k
+                        </h4>
+                        <span class="parameter-box__text">
+                            Активных клиентов на нашем сайте
+                        </span>
+                    </div>
+                    <div class="parameter-box">
+                        <figure class="paremeter-box__img">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20.4269 18.1456V18.6456L20.9268 18.6456C21.5906 18.6456 22.238 18.8514 22.78 19.2346C23.3219 19.6178 23.7318 20.1596 23.9531 20.7853C23.9717 20.8382 23.9798 20.8942 23.9768 20.9501C23.9738 21.0062 23.9598 21.0611 23.9356 21.1117C23.9114 21.1623 23.8775 21.2077 23.8357 21.2452C23.794 21.2827 23.7453 21.3117 23.6924 21.3303C23.6395 21.349 23.5834 21.3571 23.5273 21.3541C23.4713 21.3511 23.4164 21.3371 23.3658 21.3129C23.2635 21.2641 23.1849 21.1766 23.1471 21.0697L23.147 21.0694C22.9847 20.6104 22.6839 20.213 22.2863 19.9319C21.8887 19.6509 21.4137 19.5 20.9267 19.5001L20.4269 19.5003V20.0001V23.7092V24.2092H20.9269C21.7779 24.2092 22.5942 24.5473 23.196 25.1491C23.7978 25.7509 24.1359 26.5671 24.1359 27.4182C24.1359 28.2693 23.7978 29.0856 23.196 29.6874C22.5942 30.2892 21.7779 30.6273 20.9269 30.6273H20.4269V31.1273V31.5545H19.5723V31.1273V30.6273L19.0723 30.6273C18.4086 30.6273 17.7612 30.4215 17.2192 30.0383C16.6772 29.6551 16.2674 29.1133 16.0461 28.4876L16.0463 28.4875L16.0412 28.4744C16.0207 28.4211 16.011 28.3642 16.0128 28.3071C16.0146 28.25 16.0279 28.1939 16.0518 28.142C16.0757 28.0901 16.1098 28.0435 16.152 28.005C16.1942 27.9665 16.2437 27.9369 16.2975 27.9178C16.3514 27.8988 16.4085 27.8908 16.4656 27.8942C16.5226 27.8976 16.5784 27.9125 16.6295 27.9378C16.6807 27.9632 16.7263 27.9986 16.7636 28.0419C16.8009 28.0851 16.8291 28.1355 16.8466 28.1898L16.8489 28.1969L16.8514 28.2039C17.1759 29.1186 18.0474 29.7728 19.0723 29.7728H19.5723V29.2728V25.5637V25.0637H19.0723C18.2212 25.0637 17.405 24.7256 16.8032 24.1238C16.2014 23.522 15.8633 22.7058 15.8633 21.8547C15.8633 21.0036 16.2014 20.1873 16.8032 19.5855C17.405 18.9837 18.2212 18.6456 19.0723 18.6456H19.5723V18.1456V17.7184H20.4269V18.1456ZM19.5723 20.0001V19.5001H19.0723C18.4479 19.5001 17.849 19.7482 17.4074 20.1898C16.9659 20.6313 16.7178 21.2302 16.7178 21.8547C16.7178 22.4791 16.9659 23.078 17.4074 23.5196C17.849 23.9611 18.4479 24.2092 19.0723 24.2092H19.5723V23.7092V20.0001ZM20.4269 29.2728V29.7728H20.9269C21.5513 29.7728 22.1502 29.5247 22.5918 29.0831C23.0333 28.6416 23.2814 28.0427 23.2814 27.4182C23.2814 26.7938 23.0333 26.1949 22.5918 25.7533C22.1502 25.3118 21.5513 25.0637 20.9269 25.0637H20.4269V25.5637V29.2728Z" fill="#3AB795" stroke="#3AB795"/>
+                                <path d="M27.2695 12.5772L27.5001 12.8203C29.3981 14.8211 30.9858 17.0948 32.2105 19.5658L32.2115 19.5677C33.4873 22.1703 34.2037 24.8133 34.0867 27.13L34.0867 27.1301C33.9723 29.3912 33.0716 31.3572 31.0218 32.8059L31.0218 32.806C28.9129 34.296 25.4467 35.3336 20.0354 35.3336C14.6198 35.3336 11.1397 34.3141 9.01316 32.8421L9.01293 32.842C6.94943 31.4119 6.03763 29.472 5.91014 27.2374L27.2695 12.5772ZM27.2695 12.5772L26.957 12.698M27.2695 12.5772L26.957 12.698M26.957 12.698C22.6083 14.3797 17.3707 14.3797 13.0219 12.6998L12.8417 13.1662L12.4752 12.8262C10.6573 14.7856 8.96566 17.1897 7.75095 19.6928L7.75091 19.6929M26.957 12.698L7.75091 19.6929M7.75091 19.6929C6.48037 22.3123 5.7784 24.9432 5.91013 27.2371L7.75091 19.6929ZM29.8428 6.18137C30.2832 6.39921 30.6642 6.60758 30.9775 6.79426L27.8457 11.3725L27.614 11.7111L27.9009 12.0044C29.8394 13.9861 31.6697 16.5163 32.9805 19.1919C34.2935 21.8721 35.0679 24.6624 34.941 27.1735C34.8151 29.6637 33.8054 31.8862 31.5163 33.5035C29.2051 35.1363 25.5382 36.1881 20.0364 36.1881C14.5332 36.1881 10.8544 35.1551 8.52802 33.5441C6.22448 31.9489 5.1991 29.7543 5.05803 27.2856C4.91571 24.7951 5.67576 22.0152 6.98354 19.3201C8.2889 16.6299 10.1229 14.0598 12.0812 11.9992L12.3589 11.7071L12.1323 11.3737L9.02247 6.7979C9.17984 6.7052 9.3536 6.60745 9.54301 6.50655L9.54302 6.50655L9.54474 6.50562C9.73531 6.40314 9.94085 6.29766 10.1614 6.19011L10.3573 6.09457C12.6034 5.02399 16.1645 3.80943 20.0364 3.80943C23.9385 3.80943 27.4975 5.04282 29.7165 6.12004L29.8412 6.18055C29.8417 6.18082 29.8423 6.1811 29.8428 6.18137ZM29.2117 7.86176L29.7968 7.00634L28.7631 7.08076C26.1696 7.26749 23.1003 7.87478 20.1554 8.72739C18.1714 9.30054 15.9387 9.21927 13.8339 8.83104C13.3046 8.73292 12.779 8.61612 12.258 8.48085L10.9726 8.14711L11.7188 9.24572L13.4991 11.8671L13.591 12.0024L13.745 12.0572C17.6692 13.4543 22.2996 13.4542 26.2245 12.0592L26.0571 11.588L26.4698 11.8703L29.2117 7.86176ZM13.9877 7.99045L13.9881 7.99053C16.023 8.36533 18.1079 8.42978 19.9168 7.90581L19.9175 7.90559C21.8859 7.33215 23.888 6.88115 25.9122 6.55519L25.9768 5.58278C24.2353 5.05844 22.1905 4.66396 20.0354 4.66396C16.7536 4.66396 13.7063 5.57785 11.58 6.48033L11.7754 6.94059L11.6328 7.41983C12.3897 7.645 13.1821 7.8413 13.9877 7.99045Z" fill="#3AB795" stroke="#3AB795"/>
+                            </svg>
+                        </figure>
+                        <h4 class="parameter-box__title">
+                            25k
+                        </h4>
+                        <span class="parameter-box__text">
+                            Ежегодная валовая распродажа на нашем сайте
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="video">
+            <div class="container">
+                <div class="video-cont">
+                    <video class="about-video video-js" id="video-1" controls data-setup=''>
+                        <source src="../static/video/Кандибобер.mp4">
+                    </video>
+                </div>
+            </div>
+        </section>
+        <section class="advantages">
+            <div class="container">
+                <div class="advantages-cont">
+                    <div class="advantages-box">
+                        <figure class="advantages-box__img">
+                            <svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12.1663 31.6667C14.0073 31.6667 15.4997 30.1743 15.4997 28.3333C15.4997 26.4924 14.0073 25 12.1663 25C10.3254 25 8.83301 26.4924 8.83301 28.3333C8.83301 30.1743 10.3254 31.6667 12.1663 31.6667Z" stroke="#FAFAFA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M28.8333 31.6667C30.6743 31.6667 32.1667 30.1743 32.1667 28.3333C32.1667 26.4924 30.6743 25 28.8333 25C26.9924 25 25.5 26.4924 25.5 28.3333C25.5 30.1743 26.9924 31.6667 28.8333 31.6667Z" stroke="#FAFAFA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M8.5 28H7.16667C6.0621 28 5.16667 27.1046 5.16667 26V21.3333M3.5 8H19.8333C20.9379 8 21.8333 8.89543 21.8333 10V28M15.5 28H25.1667M32.5 28H33.1667C34.2712 28 35.1667 27.1046 35.1667 26V18M35.1667 18H21.8333M35.1667 18L30.7493 10.6377C30.3878 10.0353 29.7368 9.66667 29.0343 9.66667H21.8333" stroke="#FAFAFA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M5.5 11.8182H12.1667" stroke="#FAFAFA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M2.31836 15.4546H8.98503" stroke="#FAFAFA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M5.5 19.0909H12.1667" stroke="#FAFAFA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>                                                        
+                        </figure>
+                        <h5 class="advantages-box__title">
+                            БЕСПЛАТНАЯ И БЫСТРАЯ ДОСТАВКА
+                        </h5>
+                        <span class="advantages-box__text">
+                            Бесплатная доставка для всех заказов на сумму более 10000тг
+                        </span>
+                    </div>
+                    <div class="advantages-box">
+                        <figure class="advantages-box__img">
+                            <svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M13.8337 25C13.8337 23.159 12.3413 21.6666 10.5003 21.6666C8.65938 21.6666 7.16699 23.159 7.16699 25V28.3333C7.16699 30.1742 8.65938 31.6666 10.5003 31.6666C12.3413 31.6666 13.8337 30.1742 13.8337 28.3333V25Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M33.8337 25C33.8337 23.159 32.3413 21.6666 30.5003 21.6666C28.6594 21.6666 27.167 23.159 27.167 25V28.3333C27.167 30.1742 28.6594 31.6666 30.5003 31.6666C32.3413 31.6666 33.8337 30.1742 33.8337 28.3333V25Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M7.16699 25V20C7.16699 16.4637 8.57175 13.0724 11.0722 10.5719C13.5727 8.07138 16.9641 6.66663 20.5003 6.66663C24.0365 6.66663 27.4279 8.07138 29.9284 10.5719C32.4289 13.0724 33.8337 16.4637 33.8337 20V25" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M30.5 31.6666C30.5 32.9927 29.4464 34.2645 27.5711 35.2022C25.6957 36.1398 23.1522 36.6666 20.5 36.6666" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>                                                       
+                        </figure>
+                        <h5 class="advantages-box__title">
+                            ОБСЛУЖИВАНИЕ КЛИЕНТОВ 24/7
+                        </h5>
+                        <span class="advantages-box__text">
+                            Дружелюбная круглосуточная поддержка клиентов
+                        </span>
+                    </div>
+                    <div class="advantages-box">
+                        <figure class="advantages-box__img">
+                            <svg width="41" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.09845 30.5994L8.09822 30.5992C7.22549 29.9485 6.42488 28.9207 5.84209 27.7591C5.25924 26.5974 4.91602 25.3452 4.91602 24.2667V11.8667C4.91602 9.50748 6.67085 6.96189 8.89051 6.13525L8.89147 6.13489L17.2077 3.01838C17.2078 3.01835 17.2079 3.01832 17.208 3.01829C17.9615 2.73673 18.9609 2.58752 19.9827 2.58752C21.0044 2.58752 22.0039 2.73673 22.7574 3.01829C22.7575 3.01832 22.7576 3.01835 22.7576 3.01838L31.0739 6.1349L31.0749 6.13525C33.2945 6.96189 35.0493 9.50748 35.0493 11.8667V24.25C35.0493 25.3372 34.706 26.5893 34.1234 27.7484C33.5409 28.9074 32.7404 29.9314 31.8671 30.5825L31.8669 30.5827L24.7002 35.9327L24.7002 35.9326L24.694 35.9374C23.4113 36.9265 21.7234 37.4334 19.9993 37.4334C18.2767 37.4334 16.5845 36.9271 15.2642 35.9487C15.2641 35.9486 15.2639 35.9484 15.2637 35.9483L8.09845 30.5994ZM17.7412 4.43157L17.7406 4.43182L9.42389 7.54849L9.42318 7.54875C8.5956 7.86031 7.85437 8.5226 7.32345 9.29073C6.79236 10.0591 6.43268 10.9899 6.43268 11.8834V24.2667C6.43268 25.1612 6.74327 26.1893 7.20027 27.1011C7.65715 28.0127 8.29264 28.8723 9.0002 29.4007L9.00024 29.4007L16.1666 34.7504C17.2286 35.5446 18.6276 35.925 20.0014 35.925C21.3754 35.925 22.7776 35.5446 23.8471 34.7517L23.8485 34.7507L31.0151 29.4007L31.016 29.4C31.7308 28.864 32.3662 28.0051 32.8216 27.0945C33.2769 26.1838 33.5827 25.1601 33.5827 24.2667V11.8667C33.5827 10.9805 33.2223 10.0539 32.6919 9.28657C32.1614 8.51902 31.4216 7.85409 30.597 7.53392L30.597 7.53389L30.5915 7.53182L22.2748 4.41515L22.2748 4.41507L22.2658 4.41186C21.6276 4.18663 20.7995 4.08326 20.0001 4.08544C19.2014 4.08762 18.3745 4.19526 17.7412 4.43157Z" fill="#FAFAFA" stroke="#FAFAFA"/>
+                                <path d="M17.4135 21.0536L17.7671 21.4071L18.1206 21.0536L24.4039 14.7703C24.692 14.4822 25.1754 14.4822 25.4635 14.7703C25.7516 15.0583 25.7516 15.5417 25.4635 15.8298L18.2968 22.9965C18.1455 23.1478 17.9583 23.2167 17.7671 23.2167C17.5758 23.2167 17.3886 23.1478 17.2373 22.9965L14.5539 20.3131C14.2659 20.0251 14.2659 19.5417 14.5539 19.2536C14.842 18.9655 15.3254 18.9655 15.6135 19.2536L17.4135 21.0536Z" fill="#FAFAFA" stroke="#FAFAFA"/>
+                            </svg>                                                       
+                        </figure>
+                        <h5 class="advantages-box__title">
+                            ГАРАНТИЯ ВОЗВРАТА ДЕНЕГ
+                        </h5>
+                        <span class="advantages-box__text">
+                            Возвращаем деньги в течение 30 дней
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="gallery">
+            <div class="container">
+                <div class="gallery-cont">
+                    <div class="gallery-top">
+                        <h4 class="gallery__title">
+                            Галерея
+                        </h4>
+                        <div class="gallery-navigation">
+                            <button class="gallery-navigation__btn gallery-navigation__prev">
+                                <svg width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path opacity="0.6" d="M8.5 1L1.5 8L8.5 15" stroke="#3AB795" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                            <button class="gallery-navigation__btn gallery-navigation__next">
+                                <svg width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.5 1L8.5 8L1.5 15" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="swiper gallery-slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide gallery-slide">
+                                <img class="gallery__img--big" src="../static/img/gallery/gallery1_1.jpg" alt="gallery image">
+                                <img class="gallery__img--small" src="../static/img/gallery/gallery1_2.jpg" alt="gallery image">
+                                <img class="gallery__img--medium" src="../static/img/gallery/gallery1_3.jpg" alt="gallery image">
+                                <img class="gallery__img--small" src="../static/img/gallery/gallery1_4.jpg" alt="gallery image">
+                            </div>
+                            <div class="swiper-slide gallery-slide">
+                                <img class="gallery__img--big" src="../static/img/gallery/gallery2_1.jpg" alt="gallery image">
+                                <img class="gallery__img--small" src="../static/img/gallery/gallery2_2.jpg" alt="gallery image">
+                                <img class="gallery__img--medium" src="../static/img/gallery/gallery2_3.jpg" alt="gallery image">
+                                <img class="gallery__img--small" src="../static/img/gallery/gallery2_4.jpg" alt="gallery image">
+                            </div>
+                            <div class="swiper-slide gallery-slide">
+                                <img class="gallery__img--big" src="../static/img/gallery/gallery3_1.jpg" alt="gallery image">
+                                <img class="gallery__img--small" src="../static/img/gallery/gallery3_2.jpg" alt="gallery image">
+                                <img class="gallery__img--medium" src="../static/img/gallery/gallery3_3.jpg" alt="gallery image">
+                                <img class="gallery__img--small" src="../static/img/gallery/gallery3_4.jpg" alt="gallery image">
+                            </div>
+                            <div class="swiper-slide gallery-slide">
+                                <img class="gallery__img--big" src="../static/img/gallery/gallery4_1.jpg" alt="gallery image">
+                                <img class="gallery__img--small" src="../static/img/gallery/gallery4_2.jpg" alt="gallery image">
+                                <img class="gallery__img--medium" src="../static/img/gallery/gallery4_3.jpg" alt="gallery image">
+                                <img class="gallery__img--small" src="../static/img/gallery/gallery4_4.jpg" alt="gallery image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="reviews">
+            <div class="container">
+                <div class="reviews-cont">
+                    <div class="reviews-left">
+                        <h2 class="reviews__title">
+                            Рейтинги и обзоры
+                        </h2>
+                        <p class="reviews__text">
+                            Подавляющее большинство рецензентов одобрили эти купоны, искренне рекомендуя его своим друзьям и семье.
+                        </p>
+                        <a class="reviews__btn" href="reviews.html">
+                            Отзывы
+                        </a>
+                    </div>
+                    <div class="reviews-right">
+                        <img class="reviews__img" src="../static/img/about/review.svg" alt="review">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-cont">
+                    <div class="footer-top">
+                        <div class="logo footer__logo">
+                            <img src="../static/img/vector/logoFooter.svg" alt="logo">
+                            <span>
+                                QuickCart
+                            </span>
+                        </div>
+                        <div class="footer-social">
+                            <a href="#" class="fooetr-social__link">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 24C18.6274 24 24 18.6274 24 12C24 5.37259 18.6274 0 12 0C5.37258 0 0 5.37259 0 12C0 18.6274 5.37258 24 12 24ZM13.7775 5L16 5.00272L15.9933 7.90454L14.4027 7.90521C13.5119 7.90521 13.3499 8.25638 13.3499 8.95044V10.3939H15.9066L15.9086 13.4716H13.3499L13.3472 20H10.2272L10.2299 13.4716H8V10.3932H10.2299V8.69205C10.2299 6.44818 11.6222 5 13.7775 5Z" fill="white"/>
+                                </svg>                                
+                            </a>
+                            <a href="#" class="footer-social__link">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 24C18.6274 24 24 18.6274 24 12C24 5.37259 18.6274 0 12 0C5.37258 0 0 5.37259 0 12C0 18.6274 5.37258 24 12 24ZM10.4913 9.83878V13.8472C10.7693 13.7115 11.044 13.5779 11.3141 13.4464C12.4961 12.8714 13.5925 12.3379 14.5113 11.8526C14.1269 11.6567 13.7592 11.4648 13.396 11.2753C12.466 10.7901 11.5658 10.3203 10.4913 9.83878ZM17.6536 7.18671C18.1212 7.27005 18.5605 7.52179 18.8183 7.84521C19.7133 9.18723 19.7894 15.239 18.6718 16.3033C18.3902 16.5654 18.0331 16.7441 17.6296 16.8111C13.251 17.1252 7.42009 17.0006 6.28827 16.7776C5.8841 16.7 5.53223 16.5268 5.27524 16.2754C5.07577 16.0852 4.91738 15.7954 4.79486 15.3937C4.5035 14.4655 4.12473 8.73547 5.3335 7.66699C5.62038 7.41553 5.95433 7.25369 6.32936 7.18671C7.70324 6.93741 16.2789 6.93811 17.6536 7.18671Z" fill="white"/>
+                                </svg>                                
+                            </a>
+                            <a href="#" class="footer-social__link">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37259 5.37258 0 12 0C18.6274 0 24 5.37259 24 12ZM5.85 9.64285C5.85 7.54813 7.54812 5.85001 9.64286 5.85001H14.3571C16.4518 5.85001 18.15 7.54813 18.15 9.64285V14.3571C18.15 16.4518 16.4518 18.15 14.3571 18.15H9.64286C7.54811 18.15 5.85 16.4518 5.85 14.3571V9.64285ZM9.64286 7.14999C8.26609 7.14999 7.15 8.26608 7.15 9.64285V14.3571C7.15 15.7339 8.26609 16.85 9.64286 16.85H14.3571C15.7339 16.85 16.85 15.7339 16.85 14.3571V9.64285C16.85 8.26608 15.7339 7.14999 14.3571 7.14999H9.64286ZM10.2926 12.0002C10.2926 11.0573 11.0569 10.2931 11.9997 10.2931C12.9426 10.2931 13.7069 11.0573 13.7069 12.0002C13.7069 12.4529 13.527 12.8872 13.2068 13.2073C12.8867 13.5275 12.4524 13.7074 11.9997 13.7074C11.0569 13.7074 10.2926 12.9431 10.2926 12.0002ZM11.9997 8.99307C10.3389 8.99307 8.99258 10.3394 8.99258 12.0002C8.99258 13.661 10.3389 15.0074 11.9997 15.0074C12.7972 15.0074 13.5621 14.6905 14.1261 14.1266C14.69 13.5626 15.0069 12.7977 15.0069 12.0002C15.0069 10.3394 13.6606 8.99307 11.9997 8.99307ZM14.25 8.85715C14.25 9.35025 14.6497 9.75 15.1429 9.75C15.636 9.75 16.0357 9.35025 16.0357 8.85715C16.0357 8.36404 15.636 7.96429 15.1429 7.96429C14.6497 7.96429 14.25 8.36404 14.25 8.85715Z" fill="white"/>
+                                </svg>                                
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer__bootom">
+                        <span class="footer__copy">
+                            Copywright 2024 Quickcart.com 
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="overlay"></div>
+    </div>
+    <script src="../static/libs/swiper-bundle.min.js"></script>
+    <script src="../static/libs/video.min.js"></script>
+    <script src="../static/libs/Youtube.min.js"></script>
+    <script src="../static/libs/ru.min.js"></script>
+    <script src="../static/js/common.js"></script>
+    <script src="../static/js/about.js"></script>
+</body>
+</html>

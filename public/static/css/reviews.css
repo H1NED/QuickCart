@@ -1,0 +1,161 @@
+.main {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.main-cont {
+    text-align: center;
+    padding: 80px 0;
+    margin-bottom: 63px;
+    max-width: 34.375rem;
+}
+
+.main__title, .reviews__title {
+    margin-bottom: 20px;
+}
+
+.reviews {
+
+}
+
+.reviews-cont {
+
+}
+
+.reviews-top {
+    margin-bottom: 80px;
+}
+
+.reviews-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 50px;
+}
+
+.reviews-info--left {
+    max-width: 42rem;
+}
+
+
+
+.reviews-info__title {
+    margin-bottom: 20px;
+}
+
+.reviews-info__btn {
+    padding: 13px 44px !important;
+}
+
+.reviews__title {
+
+}
+
+.reviews-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 10px;
+    max-width: 25rem;
+}
+
+.rating, .reviewsBox-top span {
+    display: flex;
+    column-gap: 4px;  
+}
+
+.star {
+    width: 28px;
+    height: 28px;
+    display: block;
+    cursor: pointer;
+}
+    
+.activeStar svg path {
+    fill: #3AB795;
+}  
+
+.reviews-form__name, .reviews-form__text {
+    border: 2px solid #3AB795;
+    padding: 8px 19px;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.reviews-form__name:focus, .reviews-form__text:focus {
+    outline: none;
+    box-shadow: 0 0 8px #3AB795; 
+}
+
+.reviews-form__text {
+    resize: none;
+    height: 10rem;
+}
+
+.reviews-form__btn {
+    padding: 10px 24px;
+    background: #3AB795;
+    border-radius: 4px;
+    color: #fff;
+    display: inline-block;
+}
+
+.reviews-form__btn:hover {
+    background: #2F997C;
+}
+
+.reviewsBoxes {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.reviewsBox {
+    padding: 25px;
+    border-bottom: 0.5px #A6A492 solid;
+
+}
+
+.reviewsBox:last-child {
+    border-top: 0.5px #A6A492 solid;
+}
+
+.reviewsBox p {
+    line-height: 130%;
+    margin-bottom: 32px;
+}
+
+.reviewsBox-top {
+    margin-bottom: 16px;
+}
+
+.reviewsBox-top h5 {
+    margin-top: 12px;
+}
+
+.reviewsBox-delete__btn {
+    background: #DF8B79;
+}
+
+.reviewsBox-delete__btn:hover {
+    background: #D12D23;
+}
+
+
+
+
+@media screen and (max-width: 1000px) {
+    .reviews-info--right {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .reviews-form {
+        max-width: 100%;
+    }
+    .reviewsBox {
+        padding: 25px 0;
+    }
+}

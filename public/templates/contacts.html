@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+    <link rel="shortcut icon" href="../static/img/vector/logoHeader.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/reset.css">
+    <link rel="stylesheet" href="../static/css/common.css">
+    <link rel="stylesheet" href="../static/css/contacts.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header-cont">
+                    <a class="header__logo logo" href="landing.html">
+                        <img src="../static/img/vector/logoHeader.svg" alt="Logo">
+                        <span>QuickCart</span>
+                    </a>
+                    <nav class="header__nav">
+                        <button class="header__nav-close">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M13 13L8 8M8 8L3 3M8 8L3 13M8 8L13 3" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                        <ul class="nav-list">
+                            <li class="after-login">
+
+                            </li>
+                            <li class="nav-list__item">
+                                <a href="landing.html">
+                                    Главная
+                                </a>
+                            </li>
+                            <li class="nav-list__item">
+                                <a href="about.html">
+                                    О нас
+                                </a>
+                            </li>
+                            <li class="nav-list__item">
+                                <a href="coupons.html">
+                                    Купоны
+                                </a>
+                            </li>
+                            <li class="nav-list__item nav-list__item-active">
+                                <a href="contacts.html">
+                                    Контакты
+                                </a>
+                            </li>
+                            <li class="nav-list__item nav-list__login">
+                                <a class="logIn" href="login.html">
+                                    Войти
+                                </a>
+                            </li>
+                            <li class="nav-list__item nav-list__profile">
+                                <button class="profile__btn">  
+                                    <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.1396 14.91C14.0579 14.8983 13.9529 14.8983 13.8596 14.91C11.8062 14.84 10.1729 13.16 10.1729 11.095C10.1729 8.98331 11.8762 7.26831 13.9996 7.26831C16.1112 7.26831 17.8262 8.98331 17.8262 11.095C17.8146 13.16 16.1929 14.84 14.1396 14.91Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M21.8634 22.6101C19.7867 24.5118 17.0334 25.6668 14 25.6668C10.9667 25.6668 8.21339 24.5118 6.13672 22.6101C6.25339 21.5135 6.95339 20.4401 8.20172 19.6001C11.3984 17.4768 16.625 17.4768 19.7984 19.6001C21.0467 20.4401 21.7467 21.5135 21.8634 22.6101Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M13.9997 25.6666C20.4429 25.6666 25.6663 20.4432 25.6663 14C25.6663 7.55665 20.4429 2.33331 13.9997 2.33331C7.55635 2.33331 2.33301 7.55665 2.33301 14C2.33301 20.4432 7.55635 25.6666 13.9997 25.6666Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>                                     
+                                    <span class="profile-name">
+                                        Профиль
+                                    </span> 
+                                </button>
+                                <ul class="hidden profile-list">
+                                    <li class="profile-list__item">
+                                        <button class="profile-logout">
+                                            Выйти
+                                        </button>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                    <button class="header__burger-menu">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7 16H25" stroke="black" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M7 24H25" stroke="black" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M7 8H25" stroke="black" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <main class="contacts">
+            <div class="container">
+                <div class="contacts-cont">
+                    <div class="contacts-top">
+                        <h1 class="contacts-top__title">
+                            Контакты
+                        </h1>
+                        <span class="contacts-top__text">
+                            Какие то вопросы? Можете просто <span class="green-text">написать нам!</span>
+                        </span>
+                    </div>
+                    <div class="contacts-bottom">
+                        <div class="contacts-item contacts-item--left">
+                            <div class="contacts-item--left__inf contacts-item--left__top">
+                                <div class="contacts-item--left__title">
+                                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="40" height="40" rx="20" fill="#A0E8AF"/>
+                                        <path d="M18.5542 14.24L15.1712 10.335C14.7812 9.88503 14.0662 9.88703 13.6132 10.341L10.8312 13.128C10.0032 13.957 9.76623 15.188 10.2452 16.175C13.1069 22.1 17.8853 26.8851 23.8062 29.755C24.7922 30.234 26.0222 29.997 26.8502 29.168L29.6582 26.355C30.1132 25.9 30.1142 25.181 29.6602 24.791L25.7402 21.426C25.3302 21.074 24.6932 21.12 24.2822 21.532L22.9182 22.898C22.8484 22.9712 22.7565 23.0195 22.6566 23.0354C22.5567 23.0513 22.4543 23.0339 22.3652 22.986C20.1357 21.7021 18.2862 19.8503 17.0052 17.619C16.9573 17.5298 16.9399 17.4273 16.9558 17.3272C16.9717 17.2271 17.02 17.135 17.0932 17.065L18.4532 15.704C18.8652 15.29 18.9102 14.65 18.5542 14.239V14.24Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg> 
+                                    <span>
+                                        Позвоните нам
+                                    </span>                                   
+                                </div>
+                                <p class="contacts-item--left__text">
+                                    Мы доступны 24 часа в сутки, 7 дней в неделю.
+                                </p>
+                                <a class="contacts-item--left__link" href="#">
+                                    Телефон: <span>+1(488)-1337-228</span>
+                                </a>
+                            </div>
+                            <div class="contacts-item--left__inf contacts-item--left__bottom">
+                                <div class="contacts-item--left__title">
+                                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="40" height="40" rx="20" fill="#A0E8AF"/>
+                                        <path d="M10 13L20 20L30 13M10 27H30V13H10V27Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg> 
+                                    <span>
+                                        Напишите нам
+                                    </span>                                   
+                                </div>
+                                <p class="contacts-item--left__text">
+                                    Заполните нашу форму и мы свяжемся с вами в течение 24 часов.
+                                </p>
+                                <a class="contacts-item--left__link" href="#">
+                                    Почта: <span>customer@exclusive.com.</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="contacts-item contacts-item--left">
+                            <form class="contacts-item--left__form" id="telegram">
+                                <div class="contacts__form-line">
+                                    <input placeholder="Ваше Имя *" class="contacts__form--name" type="text" name="name" required>
+                                    <input placeholder="Ваш E-mail *" class="contacts__form--mail" type="email" name="email" required>
+                                    <input placeholder="Ваш телефон *" class="contacts__form--phone" type="tel" name="phone" required>
+                                </div>
+                                <textarea placeholder="Сообщение" class="contacts__form--text" name="message" id="" cols="30" rows="10" name="message"></textarea>
+                                <input class="contacts__form--btn" type="submit" value="Отправить сообщение">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <section class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2796.9815459687907!2d76.91092982452751!3d43.23488355252759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3883692f027581ad%3A0x2426740f56437e63!2z0JzQtdC20LTRg9C90LDRgNC-0LTQvdGL0Lkg0YPQvdC40LLQtdGA0YHQuNGC0LXRgiDQuNC90YTQvtGA0LzQsNGG0LjQvtC90L3Ri9GFINGC0LXRhdC90L7Qu9C-0LPQuNC5!5e0!3m2!1sru!2skz!4v1703255400906!5m2!1sru!2skz" width="800" height="600" style="border:0; width: 100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-cont">
+                    <div class="footer-top">
+                        <div class="logo footer__logo">
+                            <img src="../static/img/vector/logoFooter.svg" alt="logo">
+                            <span>
+                                QuickCart
+                            </span>
+                        </div>
+                        <div class="footer-social">
+                            <a href="#" class="fooetr-social__link">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 24C18.6274 24 24 18.6274 24 12C24 5.37259 18.6274 0 12 0C5.37258 0 0 5.37259 0 12C0 18.6274 5.37258 24 12 24ZM13.7775 5L16 5.00272L15.9933 7.90454L14.4027 7.90521C13.5119 7.90521 13.3499 8.25638 13.3499 8.95044V10.3939H15.9066L15.9086 13.4716H13.3499L13.3472 20H10.2272L10.2299 13.4716H8V10.3932H10.2299V8.69205C10.2299 6.44818 11.6222 5 13.7775 5Z" fill="white"/>
+                                </svg>                                
+                            </a>
+                            <a href="#" class="footer-social__link">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 24C18.6274 24 24 18.6274 24 12C24 5.37259 18.6274 0 12 0C5.37258 0 0 5.37259 0 12C0 18.6274 5.37258 24 12 24ZM10.4913 9.83878V13.8472C10.7693 13.7115 11.044 13.5779 11.3141 13.4464C12.4961 12.8714 13.5925 12.3379 14.5113 11.8526C14.1269 11.6567 13.7592 11.4648 13.396 11.2753C12.466 10.7901 11.5658 10.3203 10.4913 9.83878ZM17.6536 7.18671C18.1212 7.27005 18.5605 7.52179 18.8183 7.84521C19.7133 9.18723 19.7894 15.239 18.6718 16.3033C18.3902 16.5654 18.0331 16.7441 17.6296 16.8111C13.251 17.1252 7.42009 17.0006 6.28827 16.7776C5.8841 16.7 5.53223 16.5268 5.27524 16.2754C5.07577 16.0852 4.91738 15.7954 4.79486 15.3937C4.5035 14.4655 4.12473 8.73547 5.3335 7.66699C5.62038 7.41553 5.95433 7.25369 6.32936 7.18671C7.70324 6.93741 16.2789 6.93811 17.6536 7.18671Z" fill="white"/>
+                                </svg>                                
+                            </a>
+                            <a href="#" class="footer-social__link">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37259 5.37258 0 12 0C18.6274 0 24 5.37259 24 12ZM5.85 9.64285C5.85 7.54813 7.54812 5.85001 9.64286 5.85001H14.3571C16.4518 5.85001 18.15 7.54813 18.15 9.64285V14.3571C18.15 16.4518 16.4518 18.15 14.3571 18.15H9.64286C7.54811 18.15 5.85 16.4518 5.85 14.3571V9.64285ZM9.64286 7.14999C8.26609 7.14999 7.15 8.26608 7.15 9.64285V14.3571C7.15 15.7339 8.26609 16.85 9.64286 16.85H14.3571C15.7339 16.85 16.85 15.7339 16.85 14.3571V9.64285C16.85 8.26608 15.7339 7.14999 14.3571 7.14999H9.64286ZM10.2926 12.0002C10.2926 11.0573 11.0569 10.2931 11.9997 10.2931C12.9426 10.2931 13.7069 11.0573 13.7069 12.0002C13.7069 12.4529 13.527 12.8872 13.2068 13.2073C12.8867 13.5275 12.4524 13.7074 11.9997 13.7074C11.0569 13.7074 10.2926 12.9431 10.2926 12.0002ZM11.9997 8.99307C10.3389 8.99307 8.99258 10.3394 8.99258 12.0002C8.99258 13.661 10.3389 15.0074 11.9997 15.0074C12.7972 15.0074 13.5621 14.6905 14.1261 14.1266C14.69 13.5626 15.0069 12.7977 15.0069 12.0002C15.0069 10.3394 13.6606 8.99307 11.9997 8.99307ZM14.25 8.85715C14.25 9.35025 14.6497 9.75 15.1429 9.75C15.636 9.75 16.0357 9.35025 16.0357 8.85715C16.0357 8.36404 15.636 7.96429 15.1429 7.96429C14.6497 7.96429 14.25 8.36404 14.25 8.85715Z" fill="white"/>
+                                </svg>                                
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer__bootom">
+                        <span class="footer__copy">
+                            Copywright 2024 Quickcart.com 
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="overlay"></div>
+    </div>
+    <script src="../static/libs/axios.min.js"></script>
+    <script src="../static/js/common.js"></script>
+    <script src="../static/js/contacts.js"></script>
+</body>
+</html>

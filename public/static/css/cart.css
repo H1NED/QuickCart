@@ -1,0 +1,104 @@
+.main {
+    margin: 70px 0 105px;
+}
+ 
+.main-cont {
+    padding-top: 80px;
+    text-align: center;
+}
+
+.cart {
+
+}
+
+.cart-cont {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+.cart-boxes {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    margin-bottom: -16px;
+} 
+
+.cart-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 22px;
+    box-shadow: 0px 1px 13px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    padding: 24px 40px;
+}
+
+.cart-box > div {
+    width: 15%;
+    min-width: 105px;
+}
+
+.cart-box > div:first-child {
+    width: 55%;
+    min-width: 180px;
+}
+
+.cart-item__quantity--wrapper {
+    display: flex;
+    align-items: center;
+    column-gap: 12.5px;
+    padding: 6px 12px;
+    width: 72px;
+    border: 1.5px solid rgba(0, 0, 0, 0.40);
+    border-radius: 4px;
+}
+
+.cart-item__quantity-number {
+    min-width: 20px;
+}
+
+.cart-item__quantity-control {
+    
+}
+
+.cart-item__quantity-control > button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cart-bottom__btn {
+    padding: 16px 48px;
+    border-radius: 4px;
+}
+
+.cart-bottom--right {
+    display: flex;
+    align-items: center;
+    column-gap: 32px;
+}
+
+.cart-bottom__totalPrice--price {
+    border-bottom: 1px solid #000;
+}
+
+.cart-bottom__toCoupons {
+    color: #000;
+    border: 1px solid rgba(0, 0, 0, 0.50);
+}
+
+.cart-bottom__checkout {
+    background: #3AB795;
+    color: #fff;
+}
+
+.cart-bottom__checkout:hover {
+    background: #2F997C;
+}

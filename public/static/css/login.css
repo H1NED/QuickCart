@@ -1,0 +1,105 @@
+.login {
+    margin-top: 195px;
+    position: relative;
+}
+
+.login .container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.login-cont {
+    position: relative;
+    width: 23.125rem;
+    padding: 170px 0;
+    overflow: hidden;
+}
+
+.login__img {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.login-forms {
+    width: 100%;
+    position: relative;
+}
+
+.login-boxes {
+    width: 250%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    column-gap: 185px;
+    transform: translate(0, 0);
+}
+
+.login-box {
+    margin: auto;
+    width: 100%;
+}
+
+.login-top {
+    margin-bottom: 40px;
+}
+
+.login-top__title {
+    margin-bottom: 24px;
+}
+
+.login-error {
+    color: #fff;
+    background: #DF8B79;
+    padding: 8px;
+    border: 1px solid #D12D23;
+    border-radius: 4px;
+    margin-bottom: 35px;
+    display: none;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 35px;
+    margin-bottom: 16px;
+}
+
+.login-form input:not(:last-child) {
+    padding: 8px 0;
+    border-bottom: 1px solid #000;
+}
+
+input[type="submit"] {
+    padding: 16px 32px;
+    background: #3AB795;
+    color: #fff;
+    border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+    background: #33a385;
+}
+
+input:-internal-autofill-selected {
+    background: transparent;
+}
+
+.login-swipe {
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+}
+
+.login-swipe__btn {
+    padding: 4px 0;
+    border-bottom: 1px solid #000;
+}
+
+.login-swipe__btn:hover {
+    color: #3AB795;
+    border-bottom: 1px solid #3AB795;
+}

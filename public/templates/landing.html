@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="shortcut icon" href="../static/img/vector/logoHeader.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/reset.css">
+    <link rel="stylesheet" href="../static/libs/swiper-bundle.min.css">
+    <link rel="stylesheet" href="../static/css/common.css">
+    <link rel="stylesheet" href="../static/css/landing.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header-cont">
+                    <a class="header__logo logo" href="landing.html">
+                        <img src="../static/img/vector/logoHeader.svg" alt="Logo">
+                        <span>QuickCart</span>
+                    </a>
+                    <nav class="header__nav">
+                        <button class="header__nav-close">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M13 13L8 8M8 8L3 3M8 8L3 13M8 8L13 3" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                        <ul class="nav-list">
+                            <li class="nav-list__item nav-list__item-active">
+                                <a href="landing.html">
+                                    Главная
+                                </a>
+                            </li>
+                            <li class="nav-list__item">
+                                <a href="about.html">
+                                    О нас
+                                </a>
+                            </li>
+                            <li class="nav-list__item">
+                                <a href="coupons.html">
+                                    Купоны
+                                </a>
+                            </li>
+                            <li class="nav-list__item">
+                                <a href="contacts.html">
+                                    Контакты
+                                </a>
+                            </li>
+                            <li class="nav-list__item nav-list__login">
+                                <a class="logIn" href="login.html">
+                                    Войти
+                                </a>
+                            </li>
+                            <li class="nav-list__item nav-list__profile">
+                                <button class="profile__btn">  
+                                    <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.1396 14.91C14.0579 14.8983 13.9529 14.8983 13.8596 14.91C11.8062 14.84 10.1729 13.16 10.1729 11.095C10.1729 8.98331 11.8762 7.26831 13.9996 7.26831C16.1112 7.26831 17.8262 8.98331 17.8262 11.095C17.8146 13.16 16.1929 14.84 14.1396 14.91Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M21.8634 22.6101C19.7867 24.5118 17.0334 25.6668 14 25.6668C10.9667 25.6668 8.21339 24.5118 6.13672 22.6101C6.25339 21.5135 6.95339 20.4401 8.20172 19.6001C11.3984 17.4768 16.625 17.4768 19.7984 19.6001C21.0467 20.4401 21.7467 21.5135 21.8634 22.6101Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M13.9997 25.6666C20.4429 25.6666 25.6663 20.4432 25.6663 14C25.6663 7.55665 20.4429 2.33331 13.9997 2.33331C7.55635 2.33331 2.33301 7.55665 2.33301 14C2.33301 20.4432 7.55635 25.6666 13.9997 25.6666Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>                                     
+                                    <span class="profile-name">
+                                        Профиль
+                                    </span> 
+                                </button>
+                                <ul class="hidden profile-list">
+                                    <li class="profile-list__item">
+                                        <button class="profile-logout">
+                                            Выйти
+                                        </button>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                    <button class="header__burger-menu">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7 16H25" stroke="black" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M7 24H25" stroke="black" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M7 8H25" stroke="black" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="container">
+                <div class="main-cont">
+                    <div class="main-left">
+                        <h1 class="main-left__title">
+                            Вкусно, просто и с выгодой!
+                        </h1>
+                        <p class="main-left__text">
+                            Мы создаем вкусные моменты и обеспечиваем выгодные сделки, чтобы вы могли наслаждаться качественной продукцией без лишних затрат.
+                        </p>
+                        <a class="main-left__link" href="coupons.html">
+                            Начать
+                        </a>
+                    </div>
+
+                    <div class="main-right">
+                        <div class="main-slide">
+                            <div class="main-right--swiper swiper">
+                                <div class="main-right--swiper-wrapper swiper-wrapper">
+                                    <div class="main-right--swiper__slide swiper-slide">
+                                        <img src="../static/img/slider/mainSlider1.jpg" alt="">
+                                    </div>
+                                    <div class="main-right--swiper__slide swiper-slide">
+                                        <img src="../static/img/slider/mainSlider2.jpg" alt="">
+                                    </div>
+                                    <div class="main-right--swiper__slide swiper-slide">
+                                        <img src="../static/img/slider/mainSlider3.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination main-right--swiper-pagination"></div>
+                            </div>
+                        </div>
+                        <div class="main-right__emoji main-right__emoji-text main-right__emoji-first">
+                            <img src="../static/img/emoji/kiss.png" alt="kiss">
+                            <span>
+                                Обожаю
+                            </span>
+                        </div>
+                        <div class="main-right__emoji main-right__emoji-second">
+                            <img src="../static/img/emoji/yummy.png" alt="yummy">
+                        </div>
+                        <div class="main-right__emoji main-right__emoji-third">
+                            <img src="../static/img/emoji/love.png" alt="love">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <section class="advantages">
+            <div class="container">
+                <div class="advantages-cont">
+                    <div class="advantages-top">
+                        <h2 class="advantages-top__title">
+                            Наши преимущества: Почему мы - <span class="green-text">лучший выбор</span>
+                        </h2>
+                        <span class="advantages-top__desc">
+                            Мы предоставляем лучшие условия для вашего комфорта и удовольствия.
+                        </span>
+                    </div>
+                    <div class="advantages-list">
+                        <div class="advantages-list__item advantages-list__item-mini">
+                            <figure>
+                                <img src="../static/img/emoji/quality.png" alt="quality">
+                            </figure>
+                            <span>
+                                Качество
+                            </span>
+                        </div>
+                        <div class="advantages-list__item advantages-list__item-mini">
+                            <figure>
+                                <img src="../static/img/emoji/discount.png" alt="discount">
+                            </figure>
+                            <span>
+                                Скидки
+                            </span>
+                        </div>
+                        <div class="advantages-list__item advantages-list__item-mini">
+                            <figure>
+                                <img src="../static/img/emoji/fast.png" alt="fast">
+                            </figure>
+                            <span>
+                                Быстро
+                            </span>
+                        </div>
+                        <div class="advantages-list__item advantages-list__item-big">
+                            <span>
+                                <span class="green-text">Надежная</span> и <span class="yellow-text">оперативная</span> доставка прямо к вашей двери.
+                            </span>
+                            <img src="../static/img/vector/moped.svg" alt="moped">
+                        </div>
+                        <div class="advantages-list__item advantages-list__item-words">
+                            <svg width="62" height="51" viewBox="0 0 62 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M35.2358 48.1929L35.2358 39.1414C35.2358 37.9132 36.3553 36.9185 37.7354 36.9185C42.6603 36.9185 45.3395 32.4267 45.7113 23.5598L37.7354 23.5598C36.3554 23.5598 35.2358 22.5637 35.2358 21.3369L35.2358 2.2243C35.2358 0.996609 36.3553 0.00187113 37.7354 0.00187137L59.0003 0.00187509C60.3801 0.00187533 61.5 0.997702 61.5 2.2243L61.5 21.3371C61.5 25.5872 61.0175 29.4874 60.0704 32.9319C59.0974 36.463 57.6039 39.5501 55.6322 42.1083C53.6044 44.7373 51.0657 46.8003 48.091 48.237C45.0938 49.6829 41.6097 50.4167 37.7344 50.4167C36.3554 50.4157 35.2358 49.4201 35.2358 48.1929ZM2.99904 36.9177C1.61907 36.9177 0.499993 37.9132 0.499993 39.1396L0.499992 48.193C0.499991 49.4201 1.61906 50.415 2.99903 50.415C6.87246 50.415 10.3583 49.681 13.3536 48.2353C16.3299 46.7987 18.8682 44.7374 20.8958 42.1066C22.8687 39.5484 24.3621 36.4611 25.3351 32.9283C26.2827 29.4838 26.7642 25.5835 26.7642 21.3352L26.7642 2.22243C26.7642 0.994743 25.644 4.39632e-06 24.2646 4.15513e-06L2.99904 4.36947e-07C1.61907 1.95665e-07 0.5 0.995671 0.5 2.22243L0.499996 21.3352C0.499996 22.5627 1.61907 23.5581 2.99904 23.5581L10.863 23.5581C10.4956 32.4257 7.85505 36.9177 2.99904 36.9177Z" fill="#191720"/>
+                            </svg>
+                            <span>
+                                “С нами, каждая покупка становится праздником, наполненным радостью и незабываемыми моментами.”
+                            </span>     
+                        </div>
+                        <div class="advantages-list__item advantages-list__item-mini">
+                            <figure>
+                                <img src="../static/img/emoji/choice.png" alt="choice">
+                            </figure>
+                            <span>
+                                Выбор
+                            </span>
+                        </div>
+                        <div class="advantages-list__item advantages-list__item-mini">
+                            <figure>
+                                <img src="../static/img/emoji/convenience.png" alt="convenience">
+                            </figure>
+                            <span>
+                                Удобство
+                            </span>
+                        </div>
+                        <div class="advantages-list__item advantages-list__item-mini">
+                            <figure>
+                                <img src="../static/img/emoji/guarantee.png" alt="guarantee">
+                            </figure>
+                            <span>
+                                Гарантия
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="purchase">
+            <div class="container">
+                <div class="purchase-cont">
+                    <h2 class="purchase__title">
+                        Простые шаги к вашей <span class="green-text">удачной покупке</span>
+                    </h2>
+                    <div class="purchase-list">
+                        <div class="purchase-list__item">
+                            <span class="purchase-list__item-number">
+                                01
+                            </span>
+                            <figure>
+                                <img src="../static/img/emoji/category.png" alt="category">
+                            </figure>
+                            <span class="purchase-list__item-text">
+                                Выберите подходящую категорию
+                            </span>
+                        </div>
+                        <div class="purchase-list__item">
+                            <span class="purchase-list__item-number">
+                                02
+                            </span>
+                            <figure>
+                                <img src="../static/img/emoji/find.png" alt="find">
+                            </figure>
+                            <span class="purchase-list__item-text">
+                                Найдите наилучшую скидку
+                            </span>
+                        </div>
+                        <div class="purchase-list__item">
+                            <span class="purchase-list__item-number">
+                                03
+                            </span>
+                            <figure>
+                                <img src="../static/img/emoji/add.png" alt="add">
+                            </figure>
+                            <span class="purchase-list__item-text">
+                                Добавьте товары в корзину
+                            </span>
+                        </div>
+                        <div class="purchase-list__item">
+                            <span class="purchase-list__item-number">
+                                04
+                            </span>
+                            <figure>
+                                <img src="../static/img/emoji/purchase.png" alt="purchase">
+                            </figure>
+                            <span class="purchase-list__item-text">
+                                Оформите покупку
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="category">
+            <div class="container">
+                <div class="category-cont">
+                    <h2 class="category__title">
+                        Наши популярные <span class="green-text">категории</span>
+                    </h2>
+                    <div class="category-list">
+                        <div class="category-list__item">
+                            <button class="category-list__btn category-list__btn-active" data-content="food">
+                                <figure>
+                                    <img src="../static/img/emoji/food.png" alt="burger">
+                                </figure>
+                                <span class="category-list__btn-text">
+                                    Еда
+                                </span>
+                            </button>
+                        </div>
+                        <div class="category-list__item">
+                            <button class="category-list__btn" data-content="sport">
+                                <figure>
+                                    <img src="../static/img/emoji/sport.png" alt="sport">
+                                </figure>
+                                <span class="category-list__btn-text">
+                                    Спорт
+                                </span>
+                            </button>
+                        </div>
+                        <div class="category-list__item">
+                            <button class="category-list__btn" data-content="health">
+                                <figure>
+                                    <img src="../static/img/emoji/health.png" alt="health">
+                                </figure>
+                                <span class="category-list__btn-text">
+                                    Здоровье
+                                </span>
+                            </button>
+                        </div>
+                        <div class="category-list__item">
+                            <button class="category-list__btn" data-content="tourism">
+                                <figure>
+                                    <img src="../static/img/emoji/tourism.png" alt="tourism">
+                                </figure>
+                                <span class="category-list__btn-text">
+                                    Туризм,<br>Отели
+                                </span>
+                            </button>
+                        </div>
+                        <div class="category-list__item">
+                            <button class="category-list__btn" data-content="services">
+                                <figure>
+                                    <img src="../static/img/emoji/services.png" alt="services">
+                                </figure>
+                                <span class="category-list__btn-text">
+                                    Услуги
+                                </span>
+                            </button>
+                        </div>
+                        <div class="category-list__item">
+                            <button class="category-list__btn" data-content="product">
+                                <figure>
+                                    <img src="../static/img/emoji/product.png" alt="product">
+                                </figure>
+                                <span class="category-list__btn-text">
+                                    Товары
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="caregory__swiper-top">
+                        <h2 class="caregory__swiper-top__title">
+                            Еда
+                        </h2>
+                    </div>
+                    <div class="swiper tranding-slider">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide tranding-slide">
+                            <div class="tranding-slide-img">
+                              <img src="../static/img/slider/categorySlider1_1.jpg" alt="Tranding">
+                            </div>
+                            <h4 class="tranding-slide__title">
+                                Пицца
+                            </h4>
+                          </div>
+                          <div class="swiper-slide tranding-slide">
+                            <div class="tranding-slide-img">
+                              <img src="../static/img/slider/categorySlider1_2.jpg" alt="Tranding">
+                            </div>
+                            <h4 class="tranding-slide__title">
+                                Панкейки
+                            </h4>
+                          </div>
+                          <div class="swiper-slide tranding-slide">
+                            <div class="tranding-slide-img">
+                              <img src="../static/img/slider/categorySlider1_3.jpg" alt="Tranding">
+                            </div>
+                            <h4 class="tranding-slide__title">
+                                Торты
+                            </h4>
+                          </div>
+                          <div class="swiper-slide tranding-slide">
+                            <div class="tranding-slide-img">
+                              <img src="../static/img/slider/categorySlider1_4.jpg" alt="Tranding">
+                            </div>
+                            <h4 class="tranding-slide__title">
+                                Фрикадельки
+                            </h4>
+                          </div>
+                          <div class="swiper-slide tranding-slide">
+                            <div class="tranding-slide-img">
+                              <img src="../static/img/slider/categorySlider1_5.jpg" alt="Tranding">
+                            </div>
+                            <h4 class="tranding-slide__title">
+                                Бургер
+                            </h4>
+                          </div>
+                          <div class="swiper-slide tranding-slide">
+                            <div class="tranding-slide-img">
+                              <img src="../static/img/slider/categorySlider1_6.jpg" alt="Tranding">
+                            </div>
+                            <h4 class="tranding-slide__title">
+                                Рыба
+                            </h4>
+                          </div>
+                          <div class="swiper-slide tranding-slide">
+                            <div class="tranding-slide-img">
+                              <img src="../static/img/slider/categorySlider1_7.jpg" alt="Tranding">
+                            </div>
+                            <h4 class="tranding-slide__title">
+                                Донер
+                            </h4>
+                          </div>
+                        </div>
+              
+                        <div class="tranding-slider-control">
+                            <div class="swiper-button-prev slider-arrow">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15.6016 10.2L4.40156 10.2" stroke="#222224" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M10 15.8L4.4 10.2L10 4.60005" stroke="#222224" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                            <div class="swiper-button-next slider-arrow">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M4.39844 9.80005H15.5984" stroke="#222224" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M10 4.19995L15.6 9.79995L10 15.4" stroke="#222224" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </div>
+              
+                      </div>
+                </div>
+            </div>
+        </section>
+        <section class="faq">
+            <div class="container">
+                <div class="faq-container">
+                    <h2 class="faq__title">
+                        Часто задаваемые <span class="green-text">вопросы</span>
+                    </h2>
+                </div>
+                <div class="faq-list">
+                    <div class="faq-list--column">
+                        <div class="faq-list__item">
+                            <button class="faq-list__item--btn">
+                                <h6>
+                                    Как вернуть деньги с QuickCart на карту (вывод средств)?
+                                </h6>
+                                <svg width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.8858 23.75C19.114 23.75 24.1631 18.7132 24.1631 12.5C24.1631 6.28681 19.114 1.25 12.8858 1.25C6.65753 1.25 1.6085 6.28681 1.6085 12.5C1.6085 18.7132 6.65753 23.75 12.8858 23.75ZM12.8858 25C19.8061 25 25.4161 19.4036 25.4161 12.5C25.4161 5.59644 19.8061 0 12.8858 0C5.96548 0 0.355469 5.59644 0.355469 12.5C0.355469 19.4036 5.96548 25 12.8858 25Z" fill="#333333" fill-opacity="0.3"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M5.99414 12.5C5.99414 12.1548 6.27463 11.875 6.62066 11.875H19.151C19.497 11.875 19.7775 12.1548 19.7775 12.5C19.7775 12.8452 19.497 13.125 19.151 13.125H6.62066C6.27463 13.125 5.99414 12.8452 5.99414 12.5Z" fill="#333333"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.8863 5.625C13.2323 5.625 13.5128 5.90481 13.5128 6.25V18.75C13.5128 19.0952 13.2323 19.375 12.8863 19.375C12.5403 19.375 12.2598 19.0952 12.2598 18.75V6.25C12.2598 5.90481 12.5403 5.625 12.8863 5.625Z" fill="#333333"/>
+                                </svg>
+                            </button>
+                            <div class="faq-list__item--text">
+                                <p>
+                                    Возврат средств возможен и осуществляется в зависимости от способа оплаты. Для оформления вывода средств необходимо будет обратиться в Службу заботы о пользователях написав на почту ok@chocolife.me или позвонив по телефонам: +7 (727) 339-91-00 и +7 (771) 930-02-02. 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="faq-list__item">
+                            <button class="faq-list__item--btn">
+                                <h6>
+                                    Как пополнить свой баланс?
+                                </h6>
+                                <svg width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.8858 23.75C19.114 23.75 24.1631 18.7132 24.1631 12.5C24.1631 6.28681 19.114 1.25 12.8858 1.25C6.65753 1.25 1.6085 6.28681 1.6085 12.5C1.6085 18.7132 6.65753 23.75 12.8858 23.75ZM12.8858 25C19.8061 25 25.4161 19.4036 25.4161 12.5C25.4161 5.59644 19.8061 0 12.8858 0C5.96548 0 0.355469 5.59644 0.355469 12.5C0.355469 19.4036 5.96548 25 12.8858 25Z" fill="#333333" fill-opacity="0.3"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M5.99414 12.5C5.99414 12.1548 6.27463 11.875 6.62066 11.875H19.151C19.497 11.875 19.7775 12.1548 19.7775 12.5C19.7775 12.8452 19.497 13.125 19.151 13.125H6.62066C6.27463 13.125 5.99414 12.8452 5.99414 12.5Z" fill="#333333"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.8863 5.625C13.2323 5.625 13.5128 5.90481 13.5128 6.25V18.75C13.5128 19.0952 13.2323 19.375 12.8863 19.375C12.5403 19.375 12.2598 19.0952 12.2598 18.75V6.25C12.2598 5.90481 12.5403 5.625 12.8863 5.625Z" fill="#333333"/>
+                                </svg>
+                            </button>
+                            <div class="faq-list__item--text">
+                                <p>
+                                    На нашем сайте больше нет функции "пополнение баланса". Теперь Вы можете выкупить сертификат сразу, не пополняя баланс. Для покупки купона Вам нужно осуществить вход в личный кабинет Chocolife.me. В списке акции необходимо будет найти нужную акцию. После нажатия на кнопку "купить", необходимо выбрать количество купонов и способ оплаты (банковская карта, интернет-банкинг, терминалы оплаты, киви-кошелек). Далее по номеру заказа Вы сможете произвести оплату по выбранным акциям в терминале или посредством интернет-банкинга. После оплаты Ваш сертификат отобразится в Личном кабинете, в разделе «Мои покупки», для этого необходимо будет обновить страницу потянув ее сверху-вниз.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="faq-list__item">
+                            <button class="faq-list__item--btn">
+                                <h6>
+                                    Как оплатить покупку через KASPI?
+                                </h6>
+                                <svg width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.8858 23.75C19.114 23.75 24.1631 18.7132 24.1631 12.5C24.1631 6.28681 19.114 1.25 12.8858 1.25C6.65753 1.25 1.6085 6.28681 1.6085 12.5C1.6085 18.7132 6.65753 23.75 12.8858 23.75ZM12.8858 25C19.8061 25 25.4161 19.4036 25.4161 12.5C25.4161 5.59644 19.8061 0 12.8858 0C5.96548 0 0.355469 5.59644 0.355469 12.5C0.355469 19.4036 5.96548 25 12.8858 25Z" fill="#333333" fill-opacity="0.3"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M5.99414 12.5C5.99414 12.1548 6.27463 11.875 6.62066 11.875H19.151C19.497 11.875 19.7775 12.1548 19.7775 12.5C19.7775 12.8452 19.497 13.125 19.151 13.125H6.62066C6.27463 13.125 5.99414 12.8452 5.99414 12.5Z" fill="#333333"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.8863 5.625C13.2323 5.625 13.5128 5.90481 13.5128 6.25V18.75C13.5128 19.0952 13.2323 19.375 12.8863 19.375C12.5403 19.375 12.2598 19.0952 12.2598 18.75V6.25C12.2598 5.90481 12.5403 5.625 12.8863 5.625Z" fill="#333333"/>
+                                </svg>
+                            </button>
+                            <div class="faq-list__item--text">
+                                <p>
+                                    Являясь клиентом банка Kaspi Вы сможете напрямую оплатить сертификат банковской картой, для этого необходимо будет проверить в приложении kaspi.kz в разделе "Мой банк"-"Kaspi Gold"-"Оплата в интернете" открыт ли у Вас доступ к интернет транзакциям. После в приложении chocolife.me необходимо будет выбрать способ оплаты “Банковская карта” и заполнить необходимые для оплаты данные. Также, Вы можете сформировать 7-значный номер заказа для интернет-банкинга и оплатить сертификат в приложении kaspi.kz, в разделе "Все платежи". После оплаты Ваш сертификат отобразится в Личном кабинете, в разделе «Мои покупки», для этого необходимо будет обновить страницу потянув ее сверху-вниз.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="faq-list__item">
+                            <button class="faq-list__item--btn">
+                                <h6>
+                                    Как зарегистрироваться в QuickCart?
+                                </h6>
+                                <svg width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.8858 23.75C19.114 23.75 24.1631 18.7132 24.1631 12.5C24.1631 6.28681 19.114 1.25 12.8858 1.25C6.65753 1.25 1.6085 6.28681 1.6085 12.5C1.6085 18.7132 6.65753 23.75 12.8858 23.75ZM12.8858 25C19.8061 25 25.4161 19.4036 25.4161 12.5C25.4161 5.59644 19.8061 0 12.8858 0C5.96548 0 0.355469 5.59644 0.355469 12.5C0.355469 19.4036 5.96548 25 12.8858 25Z" fill="#333333" fill-opacity="0.3"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M5.99414 12.5C5.99414 12.1548 6.27463 11.875 6.62066 11.875H19.151C19.497 11.875 19.7775 12.1548 19.7775 12.5C19.7775 12.8452 19.497 13.125 19.151 13.125H6.62066C6.27463 13.125 5.99414 12.8452 5.99414 12.5Z" fill="#333333"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.8863 5.625C13.2323 5.625 13.5128 5.90481 13.5128 6.25V18.75C13.5128 19.0952 13.2323 19.375 12.8863 19.375C12.5403 19.375 12.2598 19.0952 12.2598 18.75V6.25C12.2598 5.90481 12.5403 5.625 12.8863 5.625Z" fill="#333333"/>
+                                </svg>
+                            </button>
+                            <div class="faq-list__item--text">
+                                <p>
+                                    Для регистрации на сайте сhocolife.me с компьютера/ноутбука необходимо нажать на желтую кнопку “Регистрация” в правом верхнем углу страницы, в мобильном приложении необходимо будет перейти в раздел “Профиль”. Далее ввести номер телефона, или электронную почту, и нажать кнопку “Продолжить”. Следующим шагом будет придумать пароль для Вашего аккаунта на сайте и подтвердить номер телефона, путем ввода кода из смс-сообщения.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq-list--column">
+                        <div class="faq-list__item">
+                            <button class="faq-list__item--btn">
+                                <h6>
+                                    Вход в личный кабинет пользователя
+                                </h6>
+                                <svg width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.8858 23.75C19.114 23.75 24.1631 18.7132 24.1631 12.5C24.1631 6.28681 19.114 1.25 12.8858 1.25C6.65753 1.25 1.6085 6.28681 1.6085 12.5C1.6085 18.7132 6.65753 23.75 12.8858 23.75ZM12.8858 25C19.8061 25 25.4161 19.4036 25.4161 12.5C25.4161 5.59644 19.8061 0 12.8858 0C5.96548 0 0.355469 5.59644 0.355469 12.5C0.355469 19.4036 5.96548 25 12.8858 25Z" fill="#333333" fill-opacity="0.3"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M5.99414 12.5C5.99414 12.1548 6.27463 11.875 6.62066 11.875H19.151C19.497 11.875 19.7775 12.1548 19.7775 12.5C19.7775 12.8452 19.497 13.125 19.151 13.125H6.62066C6.27463 13.125 5.99414 12.8452 5.99414 12.5Z" fill="#333333"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.8863 5.625C13.2323 5.625 13.5128 5.90481 13.5128 6.25V18.75C13.5128 19.0952 13.2323 19.375 12.8863 19.375C12.5403 19.375 12.2598 19.0952 12.2598 18.75V6.25C12.2598 5.90481 12.5403 5.625 12.8863 5.625Z" fill="#333333"/>
+                                </svg>
+                            </button>
+                            <div class="faq-list__item--text">
+                                <p>
+                                    Личный кабинет и адрес для регистрации единого чоко-аккаунта: https://auth.choco.kz/. Если вы уже ранее зарегистрировались, то можете перейти в ЛК с главной страницы, кликнув на надпись “Личный кабинет” в правом верхнем углу в шапке сайта, рядом с “колокольчиком”.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="faq-list__item">
+                            <button class="faq-list__item--btn">
+                                <h6>
+                                    Вход в Мерчант-кабинет для партнеров
+                                </h6>
+                                <svg width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.8858 23.75C19.114 23.75 24.1631 18.7132 24.1631 12.5C24.1631 6.28681 19.114 1.25 12.8858 1.25C6.65753 1.25 1.6085 6.28681 1.6085 12.5C1.6085 18.7132 6.65753 23.75 12.8858 23.75ZM12.8858 25C19.8061 25 25.4161 19.4036 25.4161 12.5C25.4161 5.59644 19.8061 0 12.8858 0C5.96548 0 0.355469 5.59644 0.355469 12.5C0.355469 19.4036 5.96548 25 12.8858 25Z" fill="#333333" fill-opacity="0.3"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M5.99414 12.5C5.99414 12.1548 6.27463 11.875 6.62066 11.875H19.151C19.497 11.875 19.7775 12.1548 19.7775 12.5C19.7775 12.8452 19.497 13.125 19.151 13.125H6.62066C6.27463 13.125 5.99414 12.8452 5.99414 12.5Z" fill="#333333"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.8863 5.625C13.2323 5.625 13.5128 5.90481 13.5128 6.25V18.75C13.5128 19.0952 13.2323 19.375 12.8863 19.375C12.5403 19.375 12.2598 19.0952 12.2598 18.75V6.25C12.2598 5.90481 12.5403 5.625 12.8863 5.625Z" fill="#333333"/>
+                                </svg>
+                            </button>
+                            <div class="faq-list__item--text">
+                                <p>
+                                    Ссылка для входа в мерчант-кабинет: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+                                </p>
+                            </div>
+                        </div>
+                        <div class="faq-list__item">
+                            <button class="faq-list__item--btn">
+                                <h6>
+                                    Как распечатать сертификат/купон QuickCart?
+                                </h6>
+                                <svg width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.8858 23.75C19.114 23.75 24.1631 18.7132 24.1631 12.5C24.1631 6.28681 19.114 1.25 12.8858 1.25C6.65753 1.25 1.6085 6.28681 1.6085 12.5C1.6085 18.7132 6.65753 23.75 12.8858 23.75ZM12.8858 25C19.8061 25 25.4161 19.4036 25.4161 12.5C25.4161 5.59644 19.8061 0 12.8858 0C5.96548 0 0.355469 5.59644 0.355469 12.5C0.355469 19.4036 5.96548 25 12.8858 25Z" fill="#333333" fill-opacity="0.3"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M5.99414 12.5C5.99414 12.1548 6.27463 11.875 6.62066 11.875H19.151C19.497 11.875 19.7775 12.1548 19.7775 12.5C19.7775 12.8452 19.497 13.125 19.151 13.125H6.62066C6.27463 13.125 5.99414 12.8452 5.99414 12.5Z" fill="#333333"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.8863 5.625C13.2323 5.625 13.5128 5.90481 13.5128 6.25V18.75C13.5128 19.0952 13.2323 19.375 12.8863 19.375C12.5403 19.375 12.2598 19.0952 12.2598 18.75V6.25C12.2598 5.90481 12.5403 5.625 12.8863 5.625Z" fill="#333333"/>
+                                </svg>
+                            </button>
+                            <div class="faq-list__item--text">
+                                <p>
+                                    На данный момент по всем нашим акциям купон распечатывать необязательно, достаточно сообщить его номер и SC-код (5 цифр и 3 английские буквы). Если Вы хотите распечатать купон, то Вы можете сохранить его формате PDF с полной версии сайта. Для этого необходимо будет зайти в “Личный Кабинет” в раздел «Мои покупки» и напротив сертификата, который Вы хотите распечатать нажать на кнопку “Печать”.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="faq-list__item">
+                            <button class="faq-list__item--btn">
+                                <h6>
+                                    Вход в QuickCart если были деньги на балансе, а теперь их нет
+                                </h6>
+                                <svg width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.8858 23.75C19.114 23.75 24.1631 18.7132 24.1631 12.5C24.1631 6.28681 19.114 1.25 12.8858 1.25C6.65753 1.25 1.6085 6.28681 1.6085 12.5C1.6085 18.7132 6.65753 23.75 12.8858 23.75ZM12.8858 25C19.8061 25 25.4161 19.4036 25.4161 12.5C25.4161 5.59644 19.8061 0 12.8858 0C5.96548 0 0.355469 5.59644 0.355469 12.5C0.355469 19.4036 5.96548 25 12.8858 25Z" fill="#333333" fill-opacity="0.3"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M5.99414 12.5C5.99414 12.1548 6.27463 11.875 6.62066 11.875H19.151C19.497 11.875 19.7775 12.1548 19.7775 12.5C19.7775 12.8452 19.497 13.125 19.151 13.125H6.62066C6.27463 13.125 5.99414 12.8452 5.99414 12.5Z" fill="#333333"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.8863 5.625C13.2323 5.625 13.5128 5.90481 13.5128 6.25V18.75C13.5128 19.0952 13.2323 19.375 12.8863 19.375C12.5403 19.375 12.2598 19.0952 12.2598 18.75V6.25C12.2598 5.90481 12.5403 5.625 12.8863 5.625Z" fill="#333333"/>
+                                </svg>
+                            </button>
+                            <div class="faq-list__item--text">
+                                <p>
+                                    Возможно, Вы были ранее зарегистрированы на сайте под другим аккаунтом, с другой электронной почты или номера телефона. Если проверив другие аккаунты, Вы не смогли найти Ваши средства, Вы всегда можете обратиться к нам по телефонам: +7 (727) 339-91-00 и +7 (771) 930-02-02.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-cont">
+                    <div class="footer-top">
+                        <div class="logo footer__logo">
+                            <img src="../static/img/vector/logoFooter.svg" alt="logo">
+                            <span>
+                                QuickCart
+                            </span>
+                        </div>
+                        <div class="footer-social">
+                            <a href="#" class="fooetr-social__link">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 24C18.6274 24 24 18.6274 24 12C24 5.37259 18.6274 0 12 0C5.37258 0 0 5.37259 0 12C0 18.6274 5.37258 24 12 24ZM13.7775 5L16 5.00272L15.9933 7.90454L14.4027 7.90521C13.5119 7.90521 13.3499 8.25638 13.3499 8.95044V10.3939H15.9066L15.9086 13.4716H13.3499L13.3472 20H10.2272L10.2299 13.4716H8V10.3932H10.2299V8.69205C10.2299 6.44818 11.6222 5 13.7775 5Z" fill="white"/>
+                                </svg>                                
+                            </a>
+                            <a href="#" class="footer-social__link">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 24C18.6274 24 24 18.6274 24 12C24 5.37259 18.6274 0 12 0C5.37258 0 0 5.37259 0 12C0 18.6274 5.37258 24 12 24ZM10.4913 9.83878V13.8472C10.7693 13.7115 11.044 13.5779 11.3141 13.4464C12.4961 12.8714 13.5925 12.3379 14.5113 11.8526C14.1269 11.6567 13.7592 11.4648 13.396 11.2753C12.466 10.7901 11.5658 10.3203 10.4913 9.83878ZM17.6536 7.18671C18.1212 7.27005 18.5605 7.52179 18.8183 7.84521C19.7133 9.18723 19.7894 15.239 18.6718 16.3033C18.3902 16.5654 18.0331 16.7441 17.6296 16.8111C13.251 17.1252 7.42009 17.0006 6.28827 16.7776C5.8841 16.7 5.53223 16.5268 5.27524 16.2754C5.07577 16.0852 4.91738 15.7954 4.79486 15.3937C4.5035 14.4655 4.12473 8.73547 5.3335 7.66699C5.62038 7.41553 5.95433 7.25369 6.32936 7.18671C7.70324 6.93741 16.2789 6.93811 17.6536 7.18671Z" fill="white"/>
+                                </svg>                                
+                            </a>
+                            <a href="#" class="footer-social__link">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37259 5.37258 0 12 0C18.6274 0 24 5.37259 24 12ZM5.85 9.64285C5.85 7.54813 7.54812 5.85001 9.64286 5.85001H14.3571C16.4518 5.85001 18.15 7.54813 18.15 9.64285V14.3571C18.15 16.4518 16.4518 18.15 14.3571 18.15H9.64286C7.54811 18.15 5.85 16.4518 5.85 14.3571V9.64285ZM9.64286 7.14999C8.26609 7.14999 7.15 8.26608 7.15 9.64285V14.3571C7.15 15.7339 8.26609 16.85 9.64286 16.85H14.3571C15.7339 16.85 16.85 15.7339 16.85 14.3571V9.64285C16.85 8.26608 15.7339 7.14999 14.3571 7.14999H9.64286ZM10.2926 12.0002C10.2926 11.0573 11.0569 10.2931 11.9997 10.2931C12.9426 10.2931 13.7069 11.0573 13.7069 12.0002C13.7069 12.4529 13.527 12.8872 13.2068 13.2073C12.8867 13.5275 12.4524 13.7074 11.9997 13.7074C11.0569 13.7074 10.2926 12.9431 10.2926 12.0002ZM11.9997 8.99307C10.3389 8.99307 8.99258 10.3394 8.99258 12.0002C8.99258 13.661 10.3389 15.0074 11.9997 15.0074C12.7972 15.0074 13.5621 14.6905 14.1261 14.1266C14.69 13.5626 15.0069 12.7977 15.0069 12.0002C15.0069 10.3394 13.6606 8.99307 11.9997 8.99307ZM14.25 8.85715C14.25 9.35025 14.6497 9.75 15.1429 9.75C15.636 9.75 16.0357 9.35025 16.0357 8.85715C16.0357 8.36404 15.636 7.96429 15.1429 7.96429C14.6497 7.96429 14.25 8.36404 14.25 8.85715Z" fill="white"/>
+                                </svg>                                
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer__bootom">
+                        <span class="footer__copy">
+                            Copywright 2024 Quickcart.com 
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="overlay"></div>
+    </div>
+    <script type="module" src="../static/libs/ionicons.esm.js"></script>
+    <script nomodule src="../static/libs/ionicons.js"></script>
+    <script src="../static/libs/swiper-bundle.min.js"></script>
+    <script src="../static/js/common.js"></script>
+    <script src="../static/js/landing.js"></script>
+</body>
+</html>
